@@ -1,0 +1,13 @@
+.biomes {
+  display: show;
+}
+
+.biomepicture {
+  width: 40%;
+  height: auto;
+}
+
+.forestbiome .page-header {
+  color: darkgreen;
+  background-color: #f4fcf6;
+}
