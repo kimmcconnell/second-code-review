@@ -4,8 +4,8 @@
     <title>Which Biome should you visit?</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
@@ -13,17 +13,98 @@
         <h2>Which Biome do you belong in?</h2>
         <p>Complete this quiz to discover which of Earth's biomes you should be living in!</p>
         <form id="nameform">
-          <label for="nameform">Start by entering your name here: </label>
-          <input type="text">
+          <label for="name">Start by entering your name here: </label>
+          <input id="name" type="text">
           <button type="submit" name="button" class="btn">Get Started!</button>
         </form>
       </div>
       <div class="quiz">
+        <form id="quizform" class="form-group">
 
+          <label for="q1">What is question?</label>
+          <div class="radio">
+            <label for="q1option1">
+              <input id="q1option1" type="radio">
+              Option 1
+            </label></br>
+            <label for="q1option2">
+              <input id="q1option2" type="radio">
+              Option 2
+            </label></br>
+            <label for="q1option3">
+              <input id="q1option3" type="radio">
+              Option 3
+            </label>
+          </div>
+
+          <label for="q2">What is question?</label>
+          <div class="radio">
+            <label for="q2option1">
+              <input id="q2option1" type="radio">
+              Option 1
+            </label></br>
+            <label for="q2option2">
+              <input id="q2option2" type="radio">
+              Option 2
+            </label></br>
+            <label for="q2option3">
+              <input id="q2option3" type="radio">
+              Option 3
+            </label>
+          </div>
+
+          <label for="q3">What is question?</label>
+          <div class="radio">
+            <label for="q3option1">
+              <input id="q3option1" type="radio">
+              Option 1
+            </label></br>
+            <label for="q3option2">
+              <input id="q3option2" type="radio">
+              Option 2
+            </label></br>
+            <label for="q3option3">
+              <input id="q3option3" type="radio">
+              Option 3
+            </label>
+          </div>
+
+          <label for="q4">What is question?</label>
+          <div class="radio">
+            <label for="q4option1">
+              <input id="q4option1" type="radio">
+              Option 1
+            </label></br>
+            <label for="q4option2">
+              <input id="q4option2" type="radio">
+              Option 2
+            </label></br>
+            <label for="q4option3">
+              <input id="q4option3" type="radio">
+              Option 3
+            </label>
+          </div>
+
+          <label for="q5">What is question?</label>
+          <div class="radio">
+            <label for="q5option1">
+              <input id="q5option1" type="radio">
+              Option 1
+            </label></br>
+            <label for="q5option2">
+              <input id="q5option2" type="radio">
+              Option 2
+            </label></br>
+            <label for="q5option3">
+              <input id="q5option3" type="radio">
+              Option 3
+            </label>
+          </div>
+
+        </form>
       </div>
 
       <div class="biomes">
-
         <div class="forestbiome">
           <div class="page-header">
             <h1>Forest <small>Life amongst the trees</small></h1>
@@ -64,7 +145,6 @@
           <img class="biomepicture" src="https://eastonialeopards.com/wp-content/uploads/2018/03/casey-900x589.jpg" alt="The deep ocean">
         </div>
       </div>
-
 
     </div>
   </body>

@@ -1,5 +1,9 @@
-.biomes {
+#quiz {
   display: show;
+}
+
+.biomes {
+  display: none;
 }
 
 .biomepicture {
