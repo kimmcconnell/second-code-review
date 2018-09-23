@@ -8,7 +8,31 @@
   height: auto;
 }
 
-.forestbiome .page-header {
+#forestbiome .page-header {
   color: darkgreen;
   background-color: #f4fcf6;
+}
+
+#grasslandbiome .page-header {
+  color: darkorange;
+  background-color: #fcf8f4;
+}
+
+#desertbiome .page-header {
+  color: brown;
+  background-color: #fcf4f4;
+}
+
+#tundrabiome .page-header {
+  color: white;
+  background-color: #f4fcf6;
+}
+
+#tundrabiome .tundra {
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#aquaticbiome .page-header {
+  color: darkblue;
+  background-color: #f4fcff;
 }
