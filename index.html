@@ -21,50 +21,66 @@
       <div class="quiz">
         <form id="quizform" class="form-group">
 
-          <label for="q1">What is question?</label>
-          <div class="radio">
+          <label for="q1">Congrats <span class="name"></span>, you've won a free trip of your choice! Which do you pick?</label>
+          <div class="radio" id="q1">
             <label for="q1option1">
-              <input id="q1option1" type="radio">
-              Option 1
-            </label></br>
+              <input id="q1option1" type="radio" name="q1radios" value=1>
+              Hiking the mountains of the Pacific North West
+            </label><br>
             <label for="q1option2">
-              <input id="q1option2" type="radio">
-              Option 2
-            </label></br>
+              <input id="q1option2" type="radio" name="q1radios" value=2>
+              On safari, searching for elephants and lion in Africa
+            </label><br>
             <label for="q1option3">
-              <input id="q1option3" type="radio">
-              Option 3
+              <input id="q1option3" type="radio" name="q1radios" value=3>
+              Attending Burning Man in Nevada
+            </label><br>
+            <label for="q1option4">
+              <input id="q1option4" type="radio" name="q1radios" value=4>
+              Racing in the Iditarod, the famous sled dog race in Alaska
+            </label><br>
+            <label for="q1option5">
+              <input id="q1option5" type="radio" name="q1radios" value=5>
+              Snorkling off the east coast of Australia
             </label>
           </div>
 
-          <label for="q2">What is question?</label>
+          <label for="q2">Which food would you prefer to eat on a cold day?</label>
           <div class="radio">
             <label for="q2option1">
-              <input id="q2option1" type="radio">
-              Option 1
-            </label></br>
+              <input id="q2option1" type="radio" name="q2radios" value=1>
+              Wild boar and mushroom ragu
+            </label><br>
             <label for="q2option2">
-              <input id="q2option2" type="radio">
-              Option 2
-            </label></br>
+              <input id="q2option2" type="radio" name="q2radios" value=2>
+              Roasted root vegetables
+            </label><br>
             <label for="q2option3">
-              <input id="q2option3" type="radio">
-              Option 3
+              <input id="q2option3" type="radio" name="q2radios" value=3>
+              Mequite-smoked red chili
+            </label><br>
+            <label for="q2option4">
+              <input id="q2option4" type="radio" name="q2radios" value=4>
+              Ice cream
+            </label><br>
+            <label for="q2option5">
+              <input id="q2option5" type="radio" name="q2radios" value=5>
+              Spicy seafood soup
             </label>
           </div>
 
           <label for="q3">What is question?</label>
           <div class="radio">
             <label for="q3option1">
-              <input id="q3option1" type="radio">
+              <input id="q3option1" type="radio" name="q3radios" value=1>
               Option 1
-            </label></br>
+            </label><br>
             <label for="q3option2">
-              <input id="q3option2" type="radio">
+              <input id="q3option2" type="radio" name="q3radios" value=2>
               Option 2
-            </label></br>
+            </label><br>
             <label for="q3option3">
-              <input id="q3option3" type="radio">
+              <input id="q3option3" type="radio" name="q3radios" value=3>
               Option 3
             </label>
           </div>
@@ -72,15 +88,15 @@
           <label for="q4">What is question?</label>
           <div class="radio">
             <label for="q4option1">
-              <input id="q4option1" type="radio">
+              <input id="q4option1" type="radio" name="q4radios" value=1>
               Option 1
             </label></br>
             <label for="q4option2">
-              <input id="q4option2" type="radio">
+              <input id="q4option2" type="radio" name="q4radios">
               Option 2
             </label></br>
             <label for="q4option3">
-              <input id="q4option3" type="radio">
+              <input id="q4option3" type="radio" name="q4radios">
               Option 3
             </label>
           </div>
@@ -88,18 +104,19 @@
           <label for="q5">What is question?</label>
           <div class="radio">
             <label for="q5option1">
-              <input id="q5option1" type="radio">
+              <input id="q5option1" type="radio" name="q5radios">
               Option 1
             </label></br>
             <label for="q5option2">
-              <input id="q5option2" type="radio">
+              <input id="q5option2" type="radio" name="q5radios">
               Option 2
             </label></br>
             <label for="q5option3">
-              <input id="q5option3" type="radio">
+              <input id="q5option3" type="radio" name="q5radios">
               Option 3
             </label>
           </div>
+          <button type="sumbit" name="button" class="btn-default">Click here when you're all finished!</button>
 
         </form>
       </div>
