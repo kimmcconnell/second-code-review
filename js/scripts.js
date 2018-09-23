@@ -9,7 +9,9 @@ var score = 0;
 $(document).ready( function() {
   $("#nameform").submit( function(event) {
     event.preventDefault();
+    score = 0;
     $(".biome").hide();
+    $("#quiz").show();
 
     var name = $("#nameform input").val();
     $(".name").append(name);
@@ -30,15 +32,15 @@ $(document).ready( function() {
     $("#quiz").hide();
 
     if (score <= 8) {
-      $(".forestbiome").show;
+      $("#forestbiome").show();
     } else if (score <= 13) {
-      $(".forestbiome").show;
+      $("#grasslandbiome").show();
     } else if (score <= 17) {
-      $(".forestbiome").show;
+      $("#desertbiome").show();
     } else if (score <= 21) {
-      $(".forestbiome").show;
+      $("#tundrabiome").show();
     } else {
-      $(".forestbiome").show;
+      $("#aquaticbiome").show();
     }
 
   });
