@@ -10,6 +10,12 @@ $(document).ready( function() {
   $("#nameform").submit( function(event) {
     event.preventDefault();
     score = 0;
+    $("input:radio[name=q1radios]").prop("checked", false);
+    $("input:radio[name=q2radios]").prop("checked", false);
+    $("input:radio[name=q3radios]").prop("checked", false);
+    $("input:radio[name=q4radios]").prop("checked", false);
+    $("input:radio[name=q5radios]").prop("checked", false);
+
     $(".biome").hide();
     $("#quiz").fadeIn();
 
