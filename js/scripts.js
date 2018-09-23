@@ -21,9 +21,16 @@ $(document).ready( function() {
     event.preventDefault();
 
     if (!$("input:radio[name=q1radios]:checked").val()) {
-       alert("You didn't check the first question!");
-    }
-    else {
+      alert("You didn't answer the first question!");
+    } else if (!$("input:radio[name=q2radios]:checked").val()) {
+      alert("You didn't answer the second question!");
+    } else if (!$("input:radio[name=q3radios]:checked").val()) {
+      alert("You didn't answer the third question!");
+    } else if (!$("input:radio[name=q4radios]:checked").val()) {
+      alert("You didn't answer the fourth question!");
+    } else if (!$("input:radio[name=q5radios]:checked").val()) {
+      alert("You didn't answer the fifth question!");
+    } else {
       var answer1 = parseInt($("input:radio[name=q1radios]:checked").val());
       var answer2 = parseInt($("input:radio[name=q2radios]:checked").val());
       var answer3 = parseInt($("input:radio[name=q3radios]:checked").val());
